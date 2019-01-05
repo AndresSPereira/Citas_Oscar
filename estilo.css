@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* Pagina de estilo de Andrés S. Pereira Ch. cuya última modificación fue el 5/1/2019 */
+body{
+    background: rgb(51, 231, 255);
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 1.5rem;
+}
+h1{
+    color: rgb(0, 90, 102);
+    font-style: initial;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    margin: 0;
+}
+p{
+    background: rgb(0, 180, 204);
+    border: rgb(0, 90, 102) 5px dashed;
+    margin: 10px;
+    padding: 10px;
+    width: 16rem;
+    height: 16rem; 
+    float: left;
+}
+p::first-letter{
+    color: rgb(0, 90, 102);
+    font-style: initial;
+    font-size: 5rem;
+    float: left;
+}
